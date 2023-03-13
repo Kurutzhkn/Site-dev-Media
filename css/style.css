@@ -105,17 +105,17 @@ h2 {
 }
 
 #imgC {
-    background: black url("/cinqueterre.jpg") no-repeat;
+    background: black url(/imgs/cinqueterre.jpg) no-repeat;
     background-size: cover;
 }
 
 #imgN {
-    background: black url("/newyork.jpg") no-repeat;
+    background: black url("/imgs/newyork.jpg") no-repeat;
     background-size: cover;
 }
 
 #imgS {
-    background: black url("/sanfran.jpg") no-repeat;
+    background: black url(/sanfran.jpg) no-repeat;
     background-size: cover;
 }
 
