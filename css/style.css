@@ -105,27 +105,27 @@ h2 {
 }
 
 #imgC {
-    background: black url(/imgs/cinqueterre.jpg) no-repeat;
+    background: black url(../imgs/cinqueterre.jpg) no-repeat;
     background-size: cover;
 }
 
 #imgN {
-    background: black url("/imgs/newyork.jpg") no-repeat;
+    background: black url(../imgs/newyork.jpg) no-repeat;
     background-size: cover;
 }
 
 #imgS {
-    background: black url(/sanfran.jpg) no-repeat;
+    background: black url(../imgs/sanfran.jpg) no-repeat;
     background-size: cover;
 }
 
 #imgPi {
-    background: black url("/pisa.jpg") no-repeat;
+    background: black url(../imgs/pisa.jpg) no-repeat;
     background-size: cover;
 }
 
 #imgPa {
-    background: black url("/paris.jpg") no-repeat;
+    background: black url(../imgs/paris.jpg) no-repeat;
     background-size: cover;
 }
 
@@ -259,7 +259,7 @@ footer {
 
     #imgFundo {
         height: 70vh;
-        background: black url("/london.jpg") no-repeat;
+        background: black url(../imgs/london.jpg) no-repeat;
         background-size: cover;
         display: flex;
         max-height: 1000px;
