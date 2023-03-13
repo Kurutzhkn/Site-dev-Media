@@ -1,0 +1,324 @@
+@charset "UTF-8";
+
+/*Laranja: #f44336 */
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Raleway', sans-serif;
+
+}
+
+main {
+    margin: 10px;
+}
+
+h1 {
+    color: #f44336;
+    font-weight: 500;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-shadow: 1px 1px 10px #00000054;
+    width: 95%;
+    padding: 8px;
+
+
+}
+
+#lupa {
+    color: gray;
+    font-weight: bolder;
+
+}
+
+#iconsSelect {
+    width: 100vw;
+    display: flex;
+    align-items: center;
+
+}
+
+.iconesViagem {
+    background-color: black;
+    color: white;
+    width: 100vw;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 28px;
+}
+
+#aviaoicone {
+    background-color: #f44336;
+}
+
+#Travel {
+    display: flex;
+    flex-direction: column;
+    margin: 5%;
+
+}
+
+h2 {
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+#intupTravel>span>input {
+    width: 90%;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.4);
+}
+
+#procura {
+    padding: 5px;
+    width: 55%;
+    height: 7vh;
+    background-color: gray;
+    color: white;
+    margin-bottom: 15vh;
+    border-style: none;
+}
+
+#Desconto {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.imagi {
+    height: 39vh;
+    color: white;
+    display: flex;
+    align-items: flex-end;
+    text-shadow: 3px 3px 6px #00000078;
+    margin-bottom: 15px;
+}
+
+.imagi>p {
+    margin: 10px;
+}
+
+#imgC {
+    background: black url("/cinqueterre.jpg") no-repeat;
+    background-size: cover;
+}
+
+#imgN {
+    background: black url("/newyork.jpg") no-repeat;
+    background-size: cover;
+}
+
+#imgS {
+    background: black url("/sanfran.jpg") no-repeat;
+    background-size: cover;
+}
+
+#imgPi {
+    background: black url("/pisa.jpg") no-repeat;
+    background-size: cover;
+}
+
+#imgPa {
+    background: black url("/paris.jpg") no-repeat;
+    background-size: cover;
+}
+
+#natureza>p {
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+.images2 {
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    margin-bottom: 10px;
+}
+
+.price {
+    font-weight: 200;
+}
+
+.Alinhado {
+    margin-left: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+}
+
+.Alinhado>p {
+    margin: 10px 0px 10px 0px;
+    font-size: 15px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.Alinhado>input {
+    padding: 10px;
+    border-style: none;
+    font-size: 15px;
+    margin: 10px;
+}
+
+#assinatura {
+    background-color: #5c5c5c;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 20px 10px 10px 10px;
+    margin-bottom: 20px;
+    border-style: none;
+}
+
+#assinatura>h2 {
+    font-size: 30px;
+}
+
+#assinatura>p,
+input {
+    padding: 10px;
+    border-style: none;
+    margin-left: 10px;
+
+}
+
+#inscrever {
+    background-color: rgb(253 115 115);
+    color: white;
+    width: 100px;
+    margin: 10px 0px 10px 0px;
+    margin-left: 10px;
+
+}
+
+#contato {
+    font-weight: 300;
+}
+
+#contato>p {
+    margin: 5px 0px 5px 0px;
+    display: flex;
+
+}
+
+.contatointub {
+    margin: 10px 0px 10px 0px;
+    width: 80vw;
+    border: 1px solid rgba(0, 0, 0, 0.305);
+    padding: 20px 10px 20px 10px;
+    max-width: 1000px;
+
+}
+
+.contato>p> {
+    font-weight: 900;
+    font-size: 18px;
+}
+
+#mensagem {
+    background-color: black;
+    color: white;
+    padding: 15px;
+    border-style: none;
+    margin-left: 0%;
+    margin-top: 10px;
+}
+
+footer {
+    font-size: 14px;
+    text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+    HTML {
+        max-width: 1366px;
+        background-color: gray;
+        margin: auto;
+        max-height: 768px;
+    }
+
+    header,
+    body {
+        background-color: white;
+
+    }
+    main{
+        margin: 10%;
+    }
+
+    #iconsSelect {
+        width: 100%;
+    }
+
+    #imgFundo {
+        height: 70vh;
+        background: black url("/london.jpg") no-repeat;
+        background-size: cover;
+        display: flex;
+        max-height: 1000px;
+    }
+
+    #container {
+        margin-top: 10%;
+        width: 80%;
+        margin: auto;
+        background-color: white;
+        height: 60%;
+        max-width: 820px;
+        max-height: 321px;
+    }
+
+    #Travel {
+        margin: 25px;
+    }
+
+    #intupTravel {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    #intupTravel>span {
+        width: 48%;
+    }
+
+    #procura {
+        max-width: 300px;
+        max-height: 50px;
+    }
+
+    #Desconto {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+
+    #imgC {
+        width: 45vw;
+        max-width: 510px;
+        max-height: 405px;
+
+    }
+
+    #imgN,#imgS,#imgPi,#imgPa {
+        width: 20vw ;
+        height:19vh;
+        max-width: 280px;
+        max-height: 195px;
+
+
+    }
+    #natuResposi{
+        display: flex;
+        justify-content: space-around;
+    }
+    .natus{
+        width: 48%;
+    }
+}
