@@ -98,6 +98,7 @@ h2 {
     align-items: flex-end;
     text-shadow: 3px 3px 6px #00000078;
     margin-bottom: 15px;
+    background-position: center;
 }
 
 .imagi>p {
@@ -236,6 +237,7 @@ footer {
     text-align: center;
 }
 
+
 @media screen and (min-width: 768px) {
     HTML {
         max-width: 1366px;
@@ -258,7 +260,7 @@ footer {
     }
 
     #imgFundo {
-        height: 70vh;
+        height: 90vh;
         background: black url(../imgs/london.jpg) no-repeat;
         background-size: cover;
         display: flex;
@@ -270,8 +272,8 @@ footer {
         width: 80%;
         margin: auto;
         background-color: white;
-        height: 60%;
-        max-width: 820px;
+        height: 45%;
+        max-width: 900px;
         max-height: 321px;
     }
 
@@ -289,26 +291,29 @@ footer {
     }
 
     #procura {
-        max-width: 300px;
-        max-height: 50px;
+        max-width: 200px;
+        max-height: 40px;
     }
 
     #Desconto {
         display: flex;
         flex-direction: row;
         justify-content: space-evenly;
+        overflow: hidden;
+        height: 60vh;
     }
 
     #imgC {
-        width: 45vw;
+        width: 40vw;
         max-width: 510px;
         max-height: 405px;
+        height: 60vh;
 
     }
 
     #imgN,#imgS,#imgPi,#imgPa {
-        width: 20vw ;
-        height:19vh;
+        width: 18vw;
+        height: 29vh;
         max-width: 280px;
         max-height: 195px;
 
@@ -320,5 +325,13 @@ footer {
     }
     .natus{
         width: 48%;
+    }
+    #info>strong>p{
+        display: flex;
+        align-items: center;
+        margin: 10px;
+    }
+    #info>strong>p>span{
+        margin-right: 10px;
     }
 }
