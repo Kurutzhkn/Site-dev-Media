@@ -231,6 +231,14 @@ input {
     margin-left: 0%;
     margin-top: 10px;
 }
+#info>strong>p{
+    display: flex;
+    align-items: center;
+    margin: 10px;
+}
+#info>strong>p>span{
+    margin-right: 10px;
+}
 
 footer {
     font-size: 14px;
@@ -326,12 +334,5 @@ footer {
     .natus{
         width: 48%;
     }
-    #info>strong>p{
-        display: flex;
-        align-items: center;
-        margin: 10px;
-    }
-    #info>strong>p>span{
-        margin-right: 10px;
-    }
+
 }
